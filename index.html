@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,13 +29,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#categories">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#bags">Bags</a>
                     </li>
                 </ul>
             </div>
@@ -43,13 +43,16 @@
     </nav>
     <div class="container mb-5">
         <div class="row bg-warning rounded">
-            <div class="col-md-7 my-5">
-                <h1>Mi LED TV 4A Pro 32</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam nam eum deleniti,
-                    molestiae nobis repellat impedit libero commodi aspernatur quia corrupti optio neque vel delectus
-                    ipsa autem ex reiciendis!</p>
-                <h2>$1289</h2>
-                <div class="btn btn-dark text-light">Buy Now</div>
+            <div class="col-md-7 d-flex justify-content-center align-items-center">
+                <div>
+                    <h1>Mi LED TV 4A Pro 32</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam nam eum deleniti,
+                        molestiae nobis repellat impedit libero commodi aspernatur quia corrupti optio neque vel
+                        delectus
+                        ipsa autem ex reiciendis!</p>
+                    <h2>$1289</h2>
+                    <div class="btn btn-dark text-light">Buy Now</div>
+                </div>
             </div>
             <div class="col-md-5">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -68,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="container text-light mb-5">
+    <div class="container text-light mb-5" id="categories">
         <h2 class="mb-5 text-dark">Categories</h2>
         <div class="row">
             <div class="col-md-4 col-12 row bg-warning rounded">
@@ -102,7 +105,7 @@
         <a href="#" class="text-info h4" style="text-decoration: none;">See All</a>
     </div>
     <!--  -->
-    <div class="container mb-5">
+    <div class="container mb-5" id="shoes">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ">
             <div class="col">
@@ -147,7 +150,7 @@
         <a href="#" class="text-info h4" style="text-decoration: none;">See All</a>
     </div>
     <!--  -->
-    <div class="container">
+    <div class="container" id="bags">
         <h2>Bags</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
             <div class="col">
