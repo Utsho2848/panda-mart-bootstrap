@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Panda Online shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4623dd3ad0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
         </div>
     </nav>
     <div class="container mb-5">
-        <div class="row bg-warning rounded">
+        <div class="row panda-bg-warning rounded">
             <div class="col-md-7 d-flex justify-content-center align-items-center">
                 <div>
                     <h1>Mi LED TV 4A Pro 32</h1>
@@ -51,7 +52,8 @@
                         delectus
                         ipsa autem ex reiciendis!</p>
                     <h2>$1289</h2>
-                    <div class="btn btn-dark text-light">Buy Now</div>
+                    <div class="btn panda-btn-primary text-light">Buy Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
                 </div>
             </div>
             <div class="col-md-5">
@@ -74,7 +76,7 @@
     <div class="container text-light mb-5" id="categories">
         <h2 class="mb-5 text-dark">Categories</h2>
         <div class="row">
-            <div class="col-md-4 col-12 row bg-warning rounded">
+            <div class="col-md-4 col-12 row panda-bg-warning rounded">
                 <div class="col-7 d-flex justify-content-center align-items-center">
                     <h2>Watch</h2>
                 </div>
@@ -82,7 +84,7 @@
                     <img class="img-fluid" src="images/categories/watch.png" alt="">
                 </div>
             </div>
-            <div class="col-md-4 col-12 row bg-info rounded mx-md-auto my-4 my-md-0">
+            <div class="col-md-4 col-12 row panda-bg-danger rounded mx-md-auto my-4 my-md-0">
                 <div class="col-7 d-flex justify-content-center align-items-center">
                     <h2 class="text-center">Bag</h2>
                 </div>
@@ -90,7 +92,7 @@
                     <img class="img-fluid" src="images/categories/bag.png" alt="">
                 </div>
             </div>
-            <div class="col-md-4 col-12 row bg-success rounded">
+            <div class="col-md-4 col-12 row panda-bg-primary rounded">
                 <div class="col-7 d-flex justify-content-center align-items-center">
                     <h2>Shoe</h2>
                 </div>
@@ -115,7 +117,7 @@
                         <h5 class="card-title">Reebok Dart Men's Shoes</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1250</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
@@ -126,7 +128,7 @@
                         <h5 class="card-title">Reebok Pump Shoes</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1050</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
@@ -137,7 +139,7 @@
                         <h5 class="card-title">Reebok All terrian Shoes</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1510</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
@@ -150,7 +152,7 @@
         <a href="#" class="text-info h4" style="text-decoration: none;">See All</a>
     </div>
     <!--  -->
-    <div class="container" id="bags">
+    <div class="container mb-5" id="bags">
         <h2>Bags</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
             <div class="col">
@@ -160,7 +162,7 @@
                         <h5 class="card-title">Ison Bagpack</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1250</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
@@ -171,7 +173,7 @@
                         <h5 class="card-title">Biaowang Bagpack</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1050</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
@@ -182,13 +184,28 @@
                         <h5 class="card-title">Dyxizu Bagpack</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet.</p>
                         <h4>$1510</h4>
-                        <div class="btn btn-dark">Buy Now</div>
+                        <div class="btn btn-dark">Buy Now <i class="fa-solid fa-arrow-right-long"></i></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--  -->
+    <div class="container d-flex justify-content-center align-items-center rounded p-5 panda-bg-warning mb-3">
+        <div>
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales specials and more</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Your E-mail"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn panda-btn-primary" type="button" id="button-addon2">
+                    <h5 class="text-light">Send</h5>
+                </button>
+            </div>
+        </div>
+    </div>
 
+    <footer class="text-center">©Copyright panda online market,2022</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

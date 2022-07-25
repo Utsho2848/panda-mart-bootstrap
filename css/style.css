@@ -1,0 +1,19 @@
+.panda-bg-warning {
+    background-color: #FEEAE9;
+}
+
+.panda-bg-danger {
+    background-color: #F178B6;
+}
+
+.panda-bg-warning {
+    background-image: linear-gradient(#FF9C35, #FFD019);
+}
+
+.panda-bg-primary {
+    background-image: linear-gradient(#4289FF, #3F07F8);
+}
+
+.panda-btn-primary {
+    background-image: linear-gradient(#FF589B, #FF136F);
+}
